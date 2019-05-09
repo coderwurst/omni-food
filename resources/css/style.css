@@ -1,3 +1,11 @@
+/***************/
+/** Variables **/
+/***************/
+/** #e67e22 **/
+
+/*****************/
+/** Basic Setup **/
+/*****************/
 * {
     margin: 0;
     padding: 0px;
@@ -13,11 +21,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*************************/
+/** reusable components **/
+/*************************/
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+
+/***************************/
+/** Header and Navigation **/
+/***************************/
 header {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -44,6 +59,44 @@ h1 {
     margin-bottom: 20px;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    cursor: pointer;
+    border-bottom: 2px solid #e67e22;
+}
+
+/***********/
+/* Buttons */
+/***********/
 .btn:link,
 .btn:visited {
     display: inline-block;
