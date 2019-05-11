@@ -202,9 +202,21 @@ h3 {
 }
 
 
+/********************/
+/* Features Section */
+/********************/
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+    
+
 /*****************/
 /* Meals Section */
 /*****************/
+.section-meals {
+    padding: 0px;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -219,11 +231,24 @@ h3 {
 .meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background: #000;
 }
 
 .meal-photo img {
     width: 100%;
+    height: auto;
+    opacity: 0.75;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
 }
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+
 
 
 
