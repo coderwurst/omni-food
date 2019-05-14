@@ -499,10 +499,75 @@ input[type=checkbox] {
 }
 
 
+/**********/
+/* Footer */
+/**********/
+footer {
+    background-color: #333333;
+    padding: 40px;
+}
 
+footer ul {
+    list-style: none;
+}
 
+.footer-nav {
+    float: left;
+}
 
+.social-links {
+    float: right;
+}
 
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
 
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border-bottom: 0;
+    color: #888888;
+    transition: color 0.2s;
+    vertical-align: middle;
+}
+
+.footer-nav li a:hover,
+.social-links li a:hover {
+    color: #bababa;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+    transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+}
+
+.ion-logo-instagram:hover {
+    color: #517fa4;
+}
+
+footer p {
+    text-align: center;
+    color: #888888;
+    font-size: 80%;
+    margin-top: 20px;
+}
 
 
